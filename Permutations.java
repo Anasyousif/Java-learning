@@ -4,7 +4,7 @@ class Permutations {
     
     public static List<String> singlePermutations(String s) {
         Set<String> result = new HashSet<>();
-        permute("", s, result);
+        permute(" ", s, result);
         return new ArrayList<>(result);
     }
     
