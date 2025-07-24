@@ -4,6 +4,7 @@ public class QuestionService {
     Question[]  questions = new Question[5];
 
     public void displayQuestions(){
-        System.out.println("Dsiplay in questions");
+        questions[0] = new Question();
+        System.out.println(questions[0]);
     }
 }
