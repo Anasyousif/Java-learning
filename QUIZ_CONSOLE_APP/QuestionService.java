@@ -34,5 +34,15 @@ public class QuestionService {
 
     }
 
+    public void printScore(){
+        int score = 0;
+        for (int i = 0; i < questions.length; i++){
+            if(selection[i].equals(questions[i].getAnswer())){
+                score++;
+            }
+        }
+        System.out.println("Your score is "+score);
+    }
+
     
 }
