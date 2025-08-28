@@ -5,9 +5,9 @@ public class TwoSum {
   /**
    * Finds two numbers in an array that sum up to a target value and returns their indices.
    *
-   * @param numbers The input array of integers.
-   * @param target The target sum.
-   * @return An array containing the indices of the two numbers.
+   *--param numbers The input array of integers.
+   *---param target The target sum.
+   * --return An array containing the indices of the two numbers.
    */
   public static int[] twoSum(int[] numbers, int target) {
     // A map to store numbers we have seen and their corresponding indices.
