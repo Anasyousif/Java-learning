@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class PangramChecker1 {
+public class Pangramchecker1 {
     public boolean checkWithHashSet(String sentence) {
         HashSet<Character> alphabet = new HashSet<>();
         for (char c : sentence.toLowerCase().toCharArray()) {
